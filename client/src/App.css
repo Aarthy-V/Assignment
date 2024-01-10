@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: #222;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+main{
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header nav{
+  display: flex;
+  gap: 20px;
+}
+
+div.blog{
+  display: grid;
+  margin-bottom: 20px;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+div.blog div.texts h2{
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+div.blog div.image{
+  margin: 10px;
+  width:80%;
+  gap: 20px;
+}
+
+div.blog div.texts h2{
+  margin-top: 5px;
+}
+
+div.blog div.texts p.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+div.blog div.texts p.tdlr{
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+form.login, form.signup{
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+form input{
+  width: 100%;
+  display: block;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 0;
+  border-bottom: 1px solid #222;
+  background-color: aliceblue;
+
+}
+ 
+form.login button, form.signup button, form.newpost button{
+  width: 100%;
+  margin:10px;
+  margin-top: 0;
+  padding: 10px;
+  background-color: #222;
+  border: 0;
+  color: aliceblue;
+  border-radius: 6px;
+}
+
+form.login h1, form.signup h1{
+  text-align: center;
+}
